@@ -1,5 +1,7 @@
 # WCST_behavioral_model_and_analysis
 
+Project co-developed with Jeong-Woo Kim and Yue Liu
+
 ## SSM package
 ### ssm package modified from original source here: https://github.com/lindermanlab/ssm
 
