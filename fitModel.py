@@ -12,9 +12,6 @@ import pickle
 # Function to fit hmm-glm model
 def fitFunction(glmType,glmLag,intercept,subjectIndex,numKFold,numStates,numInit,observationNoise,diagonalP,wZero,superBlockMethod, species, subj):
 
-    subjectNames = ['sam','tabitha','chloe','blanche']
-    dataDirectoryNames = ['inputHumansAllNewJN/','input1/']
-
     saveDirectory = 'rawData/modelSaves/' + species + '/' + subj + '/'
     params = [glmType,glmLag,intercept,subjectIndex,numKFold,numStates,numInit,observationNoise,diagonalP,wZero,superBlockMethod]
     saveName = '{:s}'.format('_'.join(map(str, params)))
