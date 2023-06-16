@@ -3,7 +3,7 @@
 ## SSM package
 ### ssm package modified from original source here: https://github.com/lindermanlab/ssm
 
-###Installation direction 
+### Installation direction 
 
 ```
 git clone https://github.com/lindermanlab/ssm
